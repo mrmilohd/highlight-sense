@@ -1,0 +1,28 @@
+TRAINING SETTINGS
+# --- Audio Settings ---
+N Mels = 80
+Hop Length = 512
+Sample Rate = 22050
+Max Duration Sec = 60.0
+
+# --- Model Architecture ---
+CNN Channels = [32, 64, 128, 256]
+RNN Hidden = 256
+RNN Layers = 2
+RNN Dropout = 0.3
+Attention Dim = 128
+Dropout = 0.5
+
+# --- Training Hyperparameters ---
+Batch Size = 64
+LR = 1e-4
+Weight Decay = 1e-5
+Epochs = 10
+Val Split = 0.15
+Grad Clip = 1.0
+
+INFERENCE SETTINGS
+window_sec: float = 30.0
+stride_sec: float = 5.0
+threshold_percentile: float = 0.5
+nms_window: float = 10.0
