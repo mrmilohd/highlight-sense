@@ -46,7 +46,8 @@ Here is an overview of the files included in this repository:
 * **`Config/`**
     * Contains all necessary configuration files used by the model and scripts, including values of hyperparameters.
 
-## 📊 Dataset
+## Dataset
+https://www.kaggle.com/datasets/aadityahh/dataset-highlight-sense/data
 The model was trained on a large, custom-curated dataset:
 * **Training Set:** ~30,000 positive clips, ~36,000 negative clips.
 * **Validation Set:** ~750 samples (balanced split of positive and negative).
