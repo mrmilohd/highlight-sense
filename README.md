@@ -36,10 +36,10 @@ Here is an overview of the files included in this repository:
     * A dictionary containing the trained model weights and epoch information.
 * **`HighlightSenseModelFinal.ipynb`**
     * The complete code used to train the model. Detailed instructions on how to run the training process are provided inside the notebook.
-* **`Final_Inference_Script`**
+* **`Final_Inference_Script.ipynb`**
     * **The main tool for users.** A simple-to-use Colab notebook for generating clips.
     * *Note:* Detailed instructions are provided in the notebook. Since this script requires audio separation, **you must use a GPU runtime (CUDA version 12.5)** in Google Colab.
-* **`output_inference`**
+* **`output_inference.ipynb`**
     * A notebook containing results from a dry run, demonstrating clip extraction from a specific Twitch VOD.
 * **`Downloading and Preprocessing scripts/`**
     * Scripts used to download VODs and perform the required audio preprocessing.
