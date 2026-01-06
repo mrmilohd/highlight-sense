@@ -1,6 +1,6 @@
 # HighlightSense
 
-**HighlightSense** is a dual audio channel-based **CRNN + Attention model** designed to identify and extract top clips from VODs based on audio excitement.
+**HighlightSense** is a dual audio channel-based **CRNN + Attention model** designed to identify and extract top clips from VODs based on audio excitement. https://drive.google.com/drive/folders/1PBwsWArp6ckXTLqzLqeSjEP8HqLKhL6T?usp=sharing, link of output from the inference script.
 
 ## Description
 This tool automatically scans through VODs (Video on Demand) to find high-intensity moments. It utilizes **Demucs** to separate the audio track into two distinct channels:
